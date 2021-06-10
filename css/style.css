@@ -3,6 +3,9 @@
     padding: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -158,6 +161,7 @@ h4{
 }
 small{
     color: #555;
+    display: flex;
 }
 
 /* testimonial */
@@ -277,6 +281,12 @@ ul{
         display: block;
         cursor: pointer;
     }
+    .footer-col-2 h3{
+        margin-left: 33%;
+    }
+    .col-2 .offer-img{
+        margin: auto;
+    }
 }
 
 /* Less Than 600px */
@@ -288,7 +298,29 @@ ul{
         flex-basis: 100%;
     }
     .col-2 img{
-        display: flex;
-        justify-content: center;
+       margin: auto;
+    }
+    .footer-col-2 h3{
+        margin-left: 35.5%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .footer-col-2 h3{
+        margin-left: 33%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .footer-col-2 h3{
+        margin-left: 31%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .footer-col-2 h3{
+        margin-left: 27%;
+    }
+}
+@media only screen and (max-width: 300px){
+    .footer-col-2 h3{
+        margin-left: 24%;
     }
 }
